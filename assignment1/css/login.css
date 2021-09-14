@@ -1,0 +1,60 @@
+.login {
+    width: 50%;
+    margin: 2.5% auto;
+    padding: 5%;
+    color: dimgray;
+}
+
+form {
+    border: gray solid 1px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.input {
+    border-radius: 5px;
+    border: solid grey 1px;
+    width: 60%;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #3390d8;
+}
+
+.button {
+    width: 70%;
+    padding: 15px;
+    background: #3390d8;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.pli {
+    padding: 20px;
+    margin: 15px;
+    font-size: 20px;
+}
+@media screen and (max-width: 1200px) {
+    .login {
+        width: 60%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 910px) {
+    .login {
+        width: 65%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 660px) {
+    .login {
+        width: 85%;
+        margin: auto;
+    }
+}
